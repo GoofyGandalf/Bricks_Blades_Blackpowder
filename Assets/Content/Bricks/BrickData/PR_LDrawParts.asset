@@ -1,0 +1,617 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f927e0afcc948f44a9731ac44a50e460, type: 3}
+  m_Name: PR_LDrawParts
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::LDrawPartRegistry
+  entries:
+  - part: 702.dat
+    mesh: {fileID: 4300000, guid: 8a38e9d260f81aa4fbfcae212e4cf4ff, type: 2}
+  - part: 2345.dat
+    mesh: {fileID: 4300000, guid: 05aaa56a592c77548b8c695651db16de, type: 2}
+  - part: 2356.dat
+    mesh: {fileID: 4300000, guid: 50055f2a342243a468733abe0a819ff4, type: 2}
+  - part: 2357.dat
+    mesh: {fileID: 4300000, guid: 7d51ba1b48655184489c90b87a206417, type: 2}
+  - part: 2400.dat
+    mesh: {fileID: 4300000, guid: 4871684b8e545544893bf6afeaad49ff, type: 2}
+  - part: 2453b.dat
+    mesh: {fileID: 4300000, guid: 4ea8f1ef82c95d44e80b05f2fa5cd7df, type: 2}
+  - part: 2454adm0.dat
+    mesh: {fileID: 4300000, guid: 4446f2f5a4242884caea8e47c3b6e170, type: 2}
+  - part: 2456.dat
+    mesh: {fileID: 4300000, guid: 5b97dea3dc5ea0746a139b7d414a1bc4, type: 2}
+  - part: 2465.dat
+    mesh: {fileID: 4300000, guid: f42458e2db2f4dd478df4417da284eb2, type: 2}
+  - part: 3001.dat
+    mesh: {fileID: 4300000, guid: f0c18f3027644cc4183f6e4fc20a9bcc, type: 2}
+  - part: 3002.dat
+    mesh: {fileID: 4300000, guid: 9cd52146151f64849a6653e099b4682d, type: 2}
+  - part: 3002dm2.dat
+    mesh: {fileID: 4300000, guid: 615fff649cde5b14bbedf2d040742cfd, type: 2}
+  - part: 3003.dat
+    mesh: {fileID: 4300000, guid: eb74610e82fcb714488afe0096a8d79b, type: 2}
+  - part: 3004.dat
+    mesh: {fileID: 4300000, guid: 36d171e12a99aa34e97b942fb66e734c, type: 2}
+  - part: 3005.dat
+    mesh: {fileID: 4300000, guid: 9bf5003cb2c433140ba2b912c11c2d08, type: 2}
+  - part: 3006.dat
+    mesh: {fileID: 4300000, guid: 2bc9a3314e0eb604e9398b411f3bdfbc, type: 2}
+  - part: 3008.dat
+    mesh: {fileID: 4300000, guid: 69dfecd4ce7341b48b471ba348cef1fa, type: 2}
+  - part: 3010.dat
+    mesh: {fileID: 4300000, guid: 6352875c3e1cc7e4783e06f3a4e052b3, type: 2}
+  - part: 3010dm1.dat
+    mesh: {fileID: 4300000, guid: 227bcb96352269345b359d2d169776a1, type: 2}
+  - part: 3021.dat
+    mesh: {fileID: 4300000, guid: a33665592b17fda44bbe97030d89548b, type: 2}
+  - part: 3245b.dat
+    mesh: {fileID: 4300000, guid: c3cffe926b40c9f49944fa80c497b6c9, type: 2}
+  - part: 3622.dat
+    mesh: {fileID: 4300000, guid: edd2d0ab6e65c9d4082e799380d34fb5, type: 2}
+  - part: 3659.dat
+    mesh: {fileID: 4300000, guid: 614499693faff744a862f00f0ba21e7c, type: 2}
+  - part: 3660b.dat
+    mesh: {fileID: 4300000, guid: fcfca9c0ea78796429a5c96962ea08cc, type: 2}
+  - part: 3665a.dat
+    mesh: {fileID: 4300000, guid: be6619de3ba69914f8105ada7b684329, type: 2}
+  - part: 3665b.dat
+    mesh: {fileID: 4300000, guid: 2870aa931de0ce34d82539525184742b, type: 2}
+  - part: 3676.dat
+    mesh: {fileID: 4300000, guid: c47377bff23879946ada994ac173d324, type: 2}
+  - part: 3684a.dat
+    mesh: {fileID: 4300000, guid: 946e015ef8c8b304fa67470ef127bec6, type: 2}
+  - part: 3685.dat
+    mesh: {fileID: 4300000, guid: db0674b1385f01847bbc51433c9e2164, type: 2}
+  - part: 3747b.dat
+    mesh: {fileID: 4300000, guid: 698ddbc187663284eab973d85a7340fd, type: 2}
+  - part: 3832.dat
+    mesh: {fileID: 4300000, guid: 9c915446369c7d844bc40e954b9ce61e, type: 2}
+  - part: 4201.dat
+    mesh: {fileID: 4300000, guid: 226a83f651dfdcb4f9f4664e943bc46c, type: 2}
+  - part: 4228.dat
+    mesh: {fileID: 4300000, guid: acc46c1dac31474408022fbf0040023d, type: 2}
+  - part: 4287c.dat
+    mesh: {fileID: 4300000, guid: ff336a50e015b954aaccaddbad637082, type: 2}
+  - part: 6066.dat
+    mesh: {fileID: 4300000, guid: db6f1a7a5ace7f049abc46f40621cd27, type: 2}
+  - part: 6072.dat
+    mesh: {fileID: 4300000, guid: c675edec3a65e6948a7c30d0ab6da82b, type: 2}
+  - part: 6107.dat
+    mesh: {fileID: 4300000, guid: 5e04e09f4831ed747bab2459650a6aae, type: 2}
+  - part: 15533.dat
+    mesh: {fileID: 4300000, guid: a26c9e65fbd5c934cacd1820922e1cc9, type: 2}
+  - part: 30044.dat
+    mesh: {fileID: 4300000, guid: c64ea9acb12f9ac438e55c42c19381c0, type: 2}
+  - part: 30046.dat
+    mesh: {fileID: 4300000, guid: 5eeb1331dff72134dae06b0e35f960cf, type: 2}
+  - part: 30181.dat
+    mesh: {fileID: 4300000, guid: e8da22c7e7dd03f448eee7a7f12b93cc, type: 2}
+  - part: 30400.dat
+    mesh: {fileID: 4300000, guid: 76722808a47036f4aa305c2bbdbe95d2, type: 2}
+  - part: 30505.dat
+    mesh: {fileID: 4300000, guid: 45b627c56aaf3ef4fbe69d9289f0351f, type: 2}
+  - part: 30938.dat
+    mesh: {fileID: 4300000, guid: be1f32ec066598d4eaa9d132d51239a9, type: 2}
+  - part: 35565.dat
+    mesh: {fileID: 4300000, guid: 5108776029defc84e887c6817154ec62, type: 2}
+  - part: 45695.dat
+    mesh: {fileID: 4300000, guid: b7edd83cfbd11254e8c2694c3b6fa61e, type: 2}
+  - part: 49311.dat
+    mesh: {fileID: 4300000, guid: bd66e062025715c4eaeefc26550979e2, type: 2}
+  - part: 60475b.dat
+    mesh: {fileID: 4300000, guid: f9c4fe6a7ca56ef47994632fc63654d2, type: 2}
+  - part: 64647.dat
+    mesh: {fileID: 4300000, guid: 860c82a9db4849540bc06ef7d351177e, type: 2}
+  - part: 67131.dat
+    mesh: {fileID: 4300000, guid: a2e1e6dbdcb1f334e87f889d900b8c03, type: 2}
+  - part: 78594.dat
+    mesh: {fileID: 4300000, guid: 99b06d042866092468018faa8232164c, type: 2}
+  - part: 79759.dat
+    mesh: {fileID: 4300000, guid: 70ec1f8c058790b45a7a409396a38a57, type: 2}
+  - part: 87620.dat
+    mesh: {fileID: 4300000, guid: dbb5e69d8e565dd41ac25982596c0f92, type: 2}
+  - part: 98283.dat
+    mesh: {fileID: 4300000, guid: 11d1adaea0b7aba4c9488aba3a942c86, type: 2}
+  - part: 772.dat
+    mesh: {fileID: 4300000, guid: 3292ab95710f9a9459ed25a646109e09, type: 2}
+  - part: 1751.dat
+    mesh: {fileID: 4300000, guid: 8d2237d8deab1f24eae8cc8810ae9f5b, type: 2}
+  - part: 2412a.dat
+    mesh: {fileID: 4300000, guid: d56badcc6907e2841952a5131e72fc1c, type: 2}
+  - part: 2420.dat
+    mesh: {fileID: 4300000, guid: b2de43dbca50fb24f8389ceea6156ed0, type: 2}
+  - part: 2431.dat
+    mesh: {fileID: 4300000, guid: 09fb0a8d429acf8409e7bd63e3bf9216, type: 2}
+  - part: 2445.dat
+    mesh: {fileID: 4300000, guid: 8b46bd439e19567418f3fd935ca65739, type: 2}
+  - part: 2453a.dat
+    mesh: {fileID: 4300000, guid: 8acbcd1b09d71b043a6463f58bd75621, type: 2}
+  - part: 2454b.dat
+    mesh: {fileID: 4300000, guid: b53a611df068f2d4e96ae0bd1222ed9f, type: 2}
+  - part: 3007.dat
+    mesh: {fileID: 4300000, guid: 6ebe14f6e9befe445be8a0daca8954f6, type: 2}
+  - part: 3009.dat
+    mesh: {fileID: 4300000, guid: 347ca4452ea1317428a2c4d90dc771ab, type: 2}
+  - part: 3022.dat
+    mesh: {fileID: 4300000, guid: 1ba5d4bcca50c3843bc19c1c3d155fec, type: 2}
+  - part: 3023a.dat
+    mesh: {fileID: 4300000, guid: b9ba273913f66c54684eb8d53bc59857, type: 2}
+  - part: 3023b.dat
+    mesh: {fileID: 4300000, guid: fa6be6adcc0b7e041a2663919140bffe, type: 2}
+  - part: 3024.dat
+    mesh: {fileID: 4300000, guid: 948d2d49d4d0fcf4ba816cddcde0be0d, type: 2}
+  - part: 3027.dat
+    mesh: {fileID: 4300000, guid: 47846713b0ba134409868be40d2e53ed, type: 2}
+  - part: 3030.dat
+    mesh: {fileID: 4300000, guid: fa41eea5f73e9514b9298b69cf94ee10, type: 2}
+  - part: 3033.dat
+    mesh: {fileID: 4300000, guid: 87069a1264324cc41b59bd81b2e84f93, type: 2}
+  - part: 3034.dat
+    mesh: {fileID: 4300000, guid: 0bf90853549c1f04b8f11136b8eab61c, type: 2}
+  - part: 3069b.dat
+    mesh: {fileID: 4300000, guid: 08552c162436bff4a88c9e2d1e8406e1, type: 2}
+  - part: 3070b.dat
+    mesh: {fileID: 4300000, guid: 133df880f4a141b4e9a3668fd301dadd, type: 2}
+  - part: 3245a.dat
+    mesh: {fileID: 4300000, guid: 94b401556f6c550468b7fb0f87ee134a, type: 2}
+  - part: 3395.dat
+    mesh: {fileID: 4300000, guid: 23a9494f9c18d3d43a1cca9558e7736d, type: 2}
+  - part: 3460.dat
+    mesh: {fileID: 4300000, guid: 4fa0536b0c2e9ce43b513d7e0048372a, type: 2}
+  - part: 3623.dat
+    mesh: {fileID: 4300000, guid: 2409f6892ab9d44489e6c2c100cec16e, type: 2}
+  - part: 3666.dat
+    mesh: {fileID: 4300000, guid: e433c4d27ed0e244e9071fc683f9013c, type: 2}
+  - part: 3710.dat
+    mesh: {fileID: 4300000, guid: 24f58cf76fdeb164f849f9168dcd09ae, type: 2}
+  - part: 3755b.dat
+    mesh: {fileID: 4300000, guid: 2e818ac1cac93f74f821a2a1018fee34, type: 2}
+  - part: 3795.dat
+    mesh: {fileID: 4300000, guid: 0b12e51ba02ab0c4c80eb12ff4cce342, type: 2}
+  - part: 4085c.dat
+    mesh: {fileID: 4300000, guid: 61542855ba5ea9546a4eac3feb7ec837, type: 2}
+  - part: 4162.dat
+    mesh: {fileID: 4300000, guid: 1956981627957b94187c8e8f4e5df0de, type: 2}
+  - part: 4282.dat
+    mesh: {fileID: 4300000, guid: 5151c4dc9ccbdee45964f5948670ff4e, type: 2}
+  - part: 4477.dat
+    mesh: {fileID: 4300000, guid: 4d59998a30b88ff40bd2bdb685255a4a, type: 2}
+  - part: 6636.dat
+    mesh: {fileID: 4300000, guid: 954e5e8d9d32e6742915df54e33a9c53, type: 2}
+  - part: 10202.dat
+    mesh: {fileID: 4300000, guid: 5b297fc63dc323b48924eb81debc4cbc, type: 2}
+  - part: 11203.dat
+    mesh: {fileID: 4300000, guid: 47b725fdcd81b7a4c98f199d52bb3f70, type: 2}
+  - part: 11212.dat
+    mesh: {fileID: 4300000, guid: 796026ac8dbb62b4cb9cc2a9c5899587, type: 2}
+  - part: 14716.dat
+    mesh: {fileID: 4300000, guid: 3f25524a97214564aa31a5415776c20d, type: 2}
+  - part: 24201.dat
+    mesh: {fileID: 4300000, guid: 48ede2d5415843147a4ed85b3da1549e, type: 2}
+  - part: 30145.dat
+    mesh: {fileID: 4300000, guid: 610cd66979cdbab48ae0d32a48551ced, type: 2}
+  - part: 30173a.dat
+    mesh: {fileID: 4300000, guid: 291a33524b03cf047b986d8e25127b3f, type: 2}
+  - part: 30174.dat
+    mesh: {fileID: 4300000, guid: e77b0bf2b5238ec4db8ab96c4f9166bb, type: 2}
+  - part: 39266.dat
+    mesh: {fileID: 4300000, guid: f6f2e36908cfb6e498f3ce4a9e1b6f11, type: 2}
+  - part: 43085.dat
+    mesh: {fileID: 4300000, guid: 477c0ac203128b54ba3552d3a59b8d52, type: 2}
+  - part: 48288.dat
+    mesh: {fileID: 4300000, guid: 22b1907c6f319ad408b5794e68704e75, type: 2}
+  - part: 48336.dat
+    mesh: {fileID: 4300000, guid: 191299acb9ea35d4d85dccf1a84d52fa, type: 2}
+  - part: 54200.dat
+    mesh: {fileID: 4300000, guid: 04a49c9712d665146ba231e0bcb1ed3d, type: 2}
+  - part: 60479.dat
+    mesh: {fileID: 4300000, guid: 06df8aa1030d3a94e834a6dcf2fa027c, type: 2}
+  - part: 76116.dat
+    mesh: {fileID: 4300000, guid: 5e84256875722be438d6ddc24a255cdb, type: 2}
+  - part: 78329.dat
+    mesh: {fileID: 4300000, guid: 8c87f7f5a47ad224193041a6aef022c9, type: 2}
+  - part: 78666.dat
+    mesh: {fileID: 4300000, guid: 9977720d35cbd9146b22f28b37ef89cf, type: 2}
+  - part: 83496.dat
+    mesh: {fileID: 4300000, guid: f859170fb6676fc4fa95a30f15b39630, type: 2}
+  - part: 85984.dat
+    mesh: {fileID: 4300000, guid: a314034c0e1a2d44e9a14ebf9109ffa1, type: 2}
+  - part: 88292.dat
+    mesh: {fileID: 4300000, guid: d6e2f66a71a219a448149d77b5302a59, type: 2}
+  - part: 91405.dat
+    mesh: {fileID: 4300000, guid: 7215a63b0fa884d4ab8e527bbc059240, type: 2}
+  - part: u8101.dat
+    mesh: {fileID: 4300000, guid: bab37db8423b0c744b9b1d3c2b0bce07, type: 2}
+  - part: 2462.dat
+    mesh: {fileID: 4300000, guid: 0edf530837e58024a8e46c619623cb74, type: 2}
+  - part: 2527.dat
+    mesh: {fileID: 4300000, guid: 1aca7d858525c854d93b3c77d156b864, type: 2}
+  - part: 3020.dat
+    mesh: {fileID: 4300000, guid: 523cfd5bc1a174f4d93b250d863d4bb3, type: 2}
+  - part: 3026.dat
+    mesh: {fileID: 4300000, guid: 1dfbe5b767876d347918d5cfd12ca7a5, type: 2}
+  - part: 3747a.dat
+    mesh: {fileID: 4300000, guid: b8993d3e5c528de4384ab10ce9ab75fa, type: 2}
+  - part: 3754.dat
+    mesh: {fileID: 4300000, guid: ff2241adc768a0241bacbd0b5f5ed634, type: 2}
+  - part: 4445.dat
+    mesh: {fileID: 4300000, guid: 3f8da0f68cbae9c45baa37ddd21bfdb7, type: 2}
+  - part: 6055.dat
+    mesh: {fileID: 4300000, guid: c6f3a24e1d515ba46b9dc55dff9bb273, type: 2}
+  - part: 6111.dat
+    mesh: {fileID: 4300000, guid: ec701d28c1ff8b746b27c72e3b500b38, type: 2}
+  - part: 6112.dat
+    mesh: {fileID: 4300000, guid: 9cfe788e4d3127d489850a1b0aa7f4a0, type: 2}
+  - part: 15626.dat
+    mesh: {fileID: 4300000, guid: b1a848b223792df45b97b278750fd0cb, type: 2}
+  - part: 22886.dat
+    mesh: {fileID: 4300000, guid: 840addcd1c391d941b7af0e25285c5a8, type: 2}
+  - part: 51708.dat
+    mesh: {fileID: 4300000, guid: 3d09d105a4ca9a34ca80b5485e1932ae, type: 2}
+  - part: 68297.dat
+    mesh: {fileID: 4300000, guid: 4fff98bb86fd6694c8d6db7186f07f42, type: 2}
+  - part: 91988.dat
+    mesh: {fileID: 4300000, guid: 90b93615c3937544cb1fba7e92e8259b, type: 2}
+  - part: 3031.dat
+    mesh: {fileID: 4300000, guid: 32c21c091b24b7c48a47e891459d814d, type: 2}
+  - part: 3023.dat
+    mesh: {fileID: 4300000, guid: 81e1474c5de17584cbb44b410606a82b, type: 2}
+  - part: 3035.dat
+    mesh: {fileID: 4300000, guid: 52a133f13221be340a4613e45dd9d27e, type: 2}
+  - part: 3032.dat
+    mesh: {fileID: 4300000, guid: fc392d29f83499e4eb32fd820e5f498e, type: 2}
+  - part: 4589.dat
+    mesh: {fileID: 4300000, guid: 3e3e1640a7091c14faf5dd8dac8b629e, type: 2}
+  - part: 4733.dat
+    mesh: {fileID: 4300000, guid: 9a5ac5820d36113408317c771a479f01, type: 2}
+  - part: 6064b.dat
+    mesh: {fileID: 4300000, guid: 8838af52e2ad0384e80f4197eba40f4e, type: 2}
+  - part: 6143.dat
+    mesh: {fileID: 4300000, guid: 86a1638d33930c341bc42787bda92db8, type: 2}
+  - part: 18674.dat
+    mesh: {fileID: 4300000, guid: fbbc9dd0e1131f841a5e026bafbe656b, type: 2}
+  - part: 30239.dat
+    mesh: {fileID: 4300000, guid: 404ae7d01da21a141bf7b6281a2eef73, type: 2}
+  - part: 30340.dat
+    mesh: {fileID: 4300000, guid: 072cf6648cfe517479633b278f4b4129, type: 2}
+  - part: 32607.dat
+    mesh: {fileID: 4300000, guid: 7cb6abcc50c2e3b47b9487e789c70391, type: 2}
+  - part: 63965a.dat
+    mesh: {fileID: 4300000, guid: af7bc29c77f2838439f73ac900bbe594, type: 2}
+  - part: 15535.dat
+    mesh: {fileID: 4300000, guid: deb1457a3ff1d6b4eb919300faede87a, type: 2}
+  - part: 15712.dat
+    mesh: {fileID: 4300000, guid: cb0d7e4a74407f34eb8ab53782f3a690, type: 2}
+  - part: 24855.dat
+    mesh: {fileID: 4300000, guid: c1440c45b8a170845b088e97d857d478, type: 2}
+  - part: 50451.dat
+    mesh: {fileID: 4300000, guid: 427f2bfeaf7639e43b3c4f666ceda323, type: 2}
+  - part: 85861.dat
+    mesh: {fileID: 4300000, guid: 25c7cc55726d32648a5ca83bfee429ac, type: 2}
+  - part: 98100.dat
+    mesh: {fileID: 4300000, guid: bac4b7c332f0f954588d2353feb2a773, type: 2}
+  - part: 3039.dat
+    mesh: {fileID: 4300000, guid: 40e2ffe74c4bf784c8e581f81df2b39a, type: 2}
+  - part: 3040b.dat
+    mesh: {fileID: 4300000, guid: 53d3b94f68bbbe34da8964c13dc196df, type: 2}
+  - part: 3044a.dat
+    mesh: {fileID: 4300000, guid: 51f1b37460ad71e45b5d8ec0b20815e8, type: 2}
+  - part: 3044b.dat
+    mesh: {fileID: 4300000, guid: 9147d65e517b87943b74c4dd7c21b7e5, type: 2}
+  - part: 3046.dat
+    mesh: {fileID: 4300000, guid: c2b75282f1b73c7419a74b1eef9a159a, type: 2}
+  - part: 3048a.dat
+    mesh: {fileID: 4300000, guid: aba6ab3385ef85548aa9a0fb171ca746, type: 2}
+  - part: 6083.dat
+    mesh: {fileID: 4300000, guid: 618be049073fb294ba7a0f39242fca0a, type: 2}
+  - part: 60477.dat
+    mesh: {fileID: 4300000, guid: 602ea02daef67fe4285c84dd87f3f380, type: 2}
+  - part: 3048b.dat
+    mesh: {fileID: 4300000, guid: 188aca75483eec04ba98ba856f44c254, type: 2}
+  - part: 3066.dat
+    mesh: {fileID: 4300000, guid: 530e3d53be2fc594387eb150a5d92c4e, type: 2}
+  - part: 3297.dat
+    mesh: {fileID: 4300000, guid: a5daeb7a0ddeb0b47a9d6786ec9a66a5, type: 2}
+  - part: 4161.dat
+    mesh: {fileID: 4300000, guid: 20c8d432b53f25d47aff3bc967df1770, type: 2}
+  - part: 4286.dat
+    mesh: {fileID: 4300000, guid: 5541c2cde4666374785bf20f9d752aa1, type: 2}
+  - part: 6082.dat
+    mesh: {fileID: 4300000, guid: 665fba0a894e3f34db42faf6e87459c3, type: 2}
+  - part: 28192.dat
+    mesh: {fileID: 4300000, guid: ed55fc31f1b8b7a4f878fc50bf384ee0, type: 2}
+  - part: 2417.dat
+    mesh: {fileID: 4300000, guid: fce7a8bc9d1dab5438700eaedaea50c8, type: 2}
+  - part: 2423.dat
+    mesh: {fileID: 4300000, guid: 8d8155af127bbb54ea8f2e311e17b7bf, type: 2}
+  - part: 6141.dat
+    mesh: {fileID: 4300000, guid: 563a036c138fd194ab251a708a4efc6f, type: 2}
+  - part: 11458.dat
+    mesh: {fileID: 4300000, guid: cfcddde4f9e7e4b47b7102fe1be2f25a, type: 2}
+  - part: 32952.dat
+    mesh: {fileID: 4300000, guid: 70e192a73bae66443882404104535c8c, type: 2}
+  - part: 33291.dat
+    mesh: {fileID: 4300000, guid: 04c13c1e8c16c2d49923059e038c8d94, type: 2}
+  - part: 40378.dat
+    mesh: {fileID: 4300000, guid: 695e22d028f302b40a09d6745eef0d0c, type: 2}
+  - part: 43892.dat
+    mesh: {fileID: 4300000, guid: 9a213d1d8cc1cb640b9c8e0d6590a145, type: 2}
+  - part: 75535.dat
+    mesh: {fileID: 4300000, guid: bc5fee5aedf6e0a4b9243a3383c4188e, type: 2}
+  - part: 87087.dat
+    mesh: {fileID: 4300000, guid: bbc2f400be717844587990930ac04187, type: 2}
+  - part: 2343.dat
+    mesh: {fileID: 4300000, guid: c69afda04bfa3d14ca2be07e35d3d703, type: 2}
+  - part: 2489.dat
+    mesh: {fileID: 4300000, guid: c08d341bb4453124f893a17855499658, type: 2}
+  - part: 2587.dat
+    mesh: {fileID: 4300000, guid: 317642df4066f194186fe38d23ea31e6, type: 2}
+  - part: 3068b.dat
+    mesh: {fileID: 4300000, guid: fde83ceff8c2d5143b81c52af5a321fd, type: 2}
+  - part: 4079.dat
+    mesh: {fileID: 4300000, guid: be8c0dc9fb0e4b64b81dccbd6204af12, type: 2}
+  - part: 4095.dat
+    mesh: {fileID: 4300000, guid: 841df3479eba314408242e68ba4345ca, type: 2}
+  - part: 4217.dat
+    mesh: {fileID: 4300000, guid: a359d111c203dab48b75c1c4cc1b2a3b, type: 2}
+  - part: 4495a.dat
+    mesh: {fileID: 4300000, guid: 137f8d51a8acacc43a72e729cf3ae392, type: 2}
+  - part: 5091.dat
+    mesh: {fileID: 4300000, guid: 956b46ed995a4ae42b3238f7119ed4a4, type: 2}
+  - part: 5092.dat
+    mesh: {fileID: 4300000, guid: 0ce296ef60a32a64898a2d7185b6d37d, type: 2}
+  - part: 6039.dat
+    mesh: {fileID: 4300000, guid: f26d9713d3e345b4e813f2199dbef67c, type: 2}
+  - part: 6934.dat
+    mesh: {fileID: 4300000, guid: f84ed97580ee23b4785496cbdf80c6c1, type: 2}
+  - part: 7212.dat
+    mesh: {fileID: 4300000, guid: e8b9b404989d782458a8a37e067c285d, type: 2}
+  - part: 14719.dat
+    mesh: {fileID: 4300000, guid: 442eeae019bf32142bb7319cfb0fc819, type: 2}
+  - part: 19121.dat
+    mesh: {fileID: 4300000, guid: ecead0e28f71acf44916ec91bffc7d3c, type: 2}
+  - part: 21699.dat
+    mesh: {fileID: 4300000, guid: fa7930f37ed299f4dbc93c32163e57e8, type: 2}
+  - part: 26603.dat
+    mesh: {fileID: 4300000, guid: a3413de28e8d40f4eab12892820f6230, type: 2}
+  - part: 30292a.dat
+    mesh: {fileID: 4300000, guid: 9ffe3785ca458ef459662808ee07d79f, type: 2}
+  - part: 35787.dat
+    mesh: {fileID: 4300000, guid: 55f4f4b62c6b4384396b457e4e60ac8c, type: 2}
+  - part: 41823.dat
+    mesh: {fileID: 4300000, guid: 2d506790849a65d41babaca4d2cb3408, type: 2}
+  - part: 61252.dat
+    mesh: {fileID: 4300000, guid: 259b033c89299e34a9e8357d06df5701, type: 2}
+  - part: 63864.dat
+    mesh: {fileID: 4300000, guid: e1f81d6b90082794f95bb48d81d6100e, type: 2}
+  - part: 69729.dat
+    mesh: {fileID: 4300000, guid: c4b1010334793c44990c54623c302ccb, type: 2}
+  - part: 71014a.dat
+    mesh: {fileID: 4300000, guid: 91c57cd94b1a5a248b3659fdc5281b43, type: 2}
+  - part: 71075a.dat
+    mesh: {fileID: 4300000, guid: dcd41aa102215e840a699322629b204b, type: 2}
+  - part: 79393.dat
+    mesh: {fileID: 4300000, guid: ef8f1799131f8834ab8940bb33ca6eec, type: 2}
+  - part: 87079.dat
+    mesh: {fileID: 4300000, guid: 52e177c9ffda22a4f8f993fb894d9d83, type: 2}
+  - part: 87694.dat
+    mesh: {fileID: 4300000, guid: 9de207aa29e010a468477148d94141a6, type: 2}
+  - part: 89520.dat
+    mesh: {fileID: 4300000, guid: ffb425e6316359a46a9397f9ca14575f, type: 2}
+  - part: 93550.dat
+    mesh: {fileID: 4300000, guid: f88bb7795d562f64b85407ae2939f8d8, type: 2}
+  - part: u9531a.dat
+    mesh: {fileID: 4300000, guid: ac299fb595e30cb4aa08556163684c32, type: 2}
+  - part: 733.dat
+    mesh: {fileID: 4300000, guid: fcf90b87307607742aa0b11b109b4746, type: 2}
+  - part: 1126.dat
+    mesh: {fileID: 4300000, guid: ed003c49d41e8674f95fbe613ba7b9c9, type: 2}
+  - part: 2339.dat
+    mesh: {fileID: 4300000, guid: 4949a1712ec18f9439c60f1b9974b7b9, type: 2}
+  - part: 2412b.dat
+    mesh: {fileID: 4300000, guid: def3fda3402578a4e870ab7487b17819, type: 2}
+  - part: 2470.dat
+    mesh: {fileID: 4300000, guid: 0bc42bf42086b90468e04a074697a2e2, type: 2}
+  - part: 2529.dat
+    mesh: {fileID: 4300000, guid: 03ae3c15fd3853c47833f9a5ef3a1781, type: 2}
+  - part: 2533.dat
+    mesh: {fileID: 4300000, guid: c2ba97037b520034d9c3f70de45a0acd, type: 2}
+  - part: 2535.dat
+    mesh: {fileID: 4300000, guid: 322572ad6566c2948a17c950209b8ae2, type: 2}
+  - part: 2538c.dat
+    mesh: {fileID: 4300000, guid: 40cfdb404f549ee40a350aa8564731ce, type: 2}
+  - part: 2541.dat
+    mesh: {fileID: 4300000, guid: a95f48b9f39a58d46826fb5ec175653b, type: 2}
+  - part: 2558.dat
+    mesh: {fileID: 4300000, guid: 4f5f637b6ff48174a85866e26772aebe, type: 2}
+  - part: 2559.dat
+    mesh: {fileID: 4300000, guid: ffc0e37b65d0828469754e5dd0603fea, type: 2}
+  - part: 2577.dat
+    mesh: {fileID: 4300000, guid: 7a0a432a18fac954db4d5726e5f972c6, type: 2}
+  - part: 3028.dat
+    mesh: {fileID: 4300000, guid: 757bd0353321d024a9cdfe37a571034c, type: 2}
+  - part: 3062a.dat
+    mesh: {fileID: 4300000, guid: 64883720fe5e40543b2fb616132ac60e, type: 2}
+  - part: 3068a.dat
+    mesh: {fileID: 4300000, guid: c958aa1caec3f564696aeb8e4f402c71, type: 2}
+  - part: 3070a.dat
+    mesh: {fileID: 4300000, guid: 5f6ab36eaf6131245a84eae320fd1497, type: 2}
+  - part: 3245c.dat
+    mesh: {fileID: 4300000, guid: 18564b93e0af5e4429e9967a9713c508, type: 2}
+  - part: 3626bpaq.dat
+    mesh: {fileID: 4300000, guid: 8ddf61102fd50c54993e565cc8bc16a2, type: 2}
+  - part: 3794a.dat
+    mesh: {fileID: 4300000, guid: 08cca4c82ec9ec44b83e56cdd6ba242b, type: 2}
+  - part: 3941.dat
+    mesh: {fileID: 4300000, guid: 1ea1e6eff11dd1c43939ab0a01c36e0d, type: 2}
+  - part: 3942c.dat
+    mesh: {fileID: 4300000, guid: ce3a8b878d5247446a285b67f3d12e7d, type: 2}
+  - part: 4085b.dat
+    mesh: {fileID: 4300000, guid: 3fb9dc02975479d48ae70273e5d96b20, type: 2}
+  - part: 4130.dat
+    mesh: {fileID: 4300000, guid: 9042c72e81ec3d14fa4b7b03d62df830, type: 2}
+  - part: 4150.dat
+    mesh: {fileID: 4300000, guid: b1da124254ed2a2409ce4e76f05b9c3f, type: 2}
+  - part: 4204.dat
+    mesh: {fileID: 4300000, guid: de9e9f1e2557bb144a5ec7d01b191cb6, type: 2}
+  - part: 4216.dat
+    mesh: {fileID: 4300000, guid: 4072612d19f4adb46b28e1b3908f4e56, type: 2}
+  - part: 4495b.dat
+    mesh: {fileID: 4300000, guid: 8ef59c2ea04b9044e8ff6c55ab3662f6, type: 2}
+  - part: 4510.dat
+    mesh: {fileID: 4300000, guid: 9da4bf909828dfd40851bee5da2508e1, type: 2}
+  - part: 4844a.dat
+    mesh: {fileID: 4300000, guid: 7f05f85c666103146870513450fe02a9, type: 2}
+  - part: 6067.dat
+    mesh: {fileID: 4300000, guid: cc24c9ac0b5252a48b5bf57144506057, type: 2}
+  - part: 6079.dat
+    mesh: {fileID: 4300000, guid: 6428451b1d3d4384fb01886bace0425f, type: 2}
+  - part: 6182.dat
+    mesh: {fileID: 4300000, guid: e2252da6ea9ccd249a08e632a68e00ad, type: 2}
+  - part: 6213.dat
+    mesh: {fileID: 4300000, guid: 5aae8c8b7b7c60f41874827d8381cad7, type: 2}
+  - part: 6798.dat
+    mesh: {fileID: 4300000, guid: c77ee003346dd214cae56880b040b0b1, type: 2}
+  - part: 6881b.dat
+    mesh: {fileID: 4300000, guid: 4cd4c11611fc3cc4d9c1036bb654b1eb, type: 2}
+  - part: 11211.dat
+    mesh: {fileID: 4300000, guid: 679d41b0c6faf3d4d92d7bf0663ed301, type: 2}
+  - part: 13547.dat
+    mesh: {fileID: 4300000, guid: d9d7b9f4510c8e84690e716907b5c37d, type: 2}
+  - part: 13965.dat
+    mesh: {fileID: 4300000, guid: 77ba3b6d8e58927459d1efc72e9cb041, type: 2}
+  - part: 14704.dat
+    mesh: {fileID: 4300000, guid: 73d5674279fcef6499e7073b662a21ae, type: 2}
+  - part: 14769.dat
+    mesh: {fileID: 4300000, guid: e0ab66be99424844d84f377727b2f94d, type: 2}
+  - part: 15332.dat
+    mesh: {fileID: 4300000, guid: b0a9ca22be8af31449e2eca47f01efa0, type: 2}
+  - part: 21229.dat
+    mesh: {fileID: 4300000, guid: 801293289ceb49046992eb2d655db3f6, type: 2}
+  - part: 27261.dat
+    mesh: {fileID: 4300000, guid: 65ec1049d4a27f241b377da644b10fe4, type: 2}
+  - part: 27263.dat
+    mesh: {fileID: 4300000, guid: 957862c7d13350d4dbf3123e8b06dbe8, type: 2}
+  - part: 27507.dat
+    mesh: {fileID: 4300000, guid: 617f92effdce17543a101c29be830158, type: 2}
+  - part: 27925.dat
+    mesh: {fileID: 4300000, guid: ecdd6aa85cee2bc419d3d3ecec163b17, type: 2}
+  - part: 30072.dat
+    mesh: {fileID: 4300000, guid: 9f645f5f6bc3a9f44863c9b88728d7dd, type: 2}
+  - part: 30134.dat
+    mesh: {fileID: 4300000, guid: 18caf33ad37c8e54e9ea6bdf8a4a0dea, type: 2}
+  - part: 30136.dat
+    mesh: {fileID: 4300000, guid: 40460580093b63244b55de10947c89a5, type: 2}
+  - part: 30137.dat
+    mesh: {fileID: 4300000, guid: 51822c5fdee6b4243a6f918fd19059fe, type: 2}
+  - part: 30139.dat
+    mesh: {fileID: 4300000, guid: c55902872e07745429ba30fbbc189041, type: 2}
+  - part: 30176.dat
+    mesh: {fileID: 4300000, guid: 10b95ea02fa40cc4b8f7f3f45863f31f, type: 2}
+  - part: 30565.dat
+    mesh: {fileID: 4300000, guid: fc0ee5a17e0d12a408cdb6796688aafa, type: 2}
+  - part: 35480.dat
+    mesh: {fileID: 4300000, guid: 56e863f1fe7f67340aea22b35bacf2ee, type: 2}
+  - part: 36069b.dat
+    mesh: {fileID: 4300000, guid: 99342bdd8563c384a86e601e2f0d8d35, type: 2}
+  - part: 38320.dat
+    mesh: {fileID: 4300000, guid: 9f75f518106bf2f479168e7877cddf7b, type: 2}
+  - part: 42023.dat
+    mesh: {fileID: 4300000, guid: 3fee1ef595c4f1b46b2b793174a5d2b7, type: 2}
+  - part: 42445.dat
+    mesh: {fileID: 4300000, guid: 12278388824bda94fb0bbe729c4f336f, type: 2}
+  - part: 42448.dat
+    mesh: {fileID: 4300000, guid: 43b5e8d9efb284641960205ec1fd78d2, type: 2}
+  - part: 43713.dat
+    mesh: {fileID: 4300000, guid: c4fbaf7042bcd1843a6f84acc6663c3c, type: 2}
+  - part: 47404.dat
+    mesh: {fileID: 4300000, guid: c368f88c4f09f1b45a7105bf80c4e5e6, type: 2}
+  - part: 47405.dat
+    mesh: {fileID: 4300000, guid: dbfcb07af302cd141a410e31c6f5941c, type: 2}
+  - part: 48457.dat
+    mesh: {fileID: 4300000, guid: 8767679b05b8ae545940ace26417248f, type: 2}
+  - part: 49668.dat
+    mesh: {fileID: 4300000, guid: f0c73dedde3215a439f551435019cb0d, type: 2}
+  - part: 52395.dat
+    mesh: {fileID: 4300000, guid: 27ed07f86e21fc544ae1cf304dee2302, type: 2}
+  - part: 60583a.dat
+    mesh: {fileID: 4300000, guid: 24a7338d1464fff47ad3f23ee2d80c82, type: 2}
+  - part: 60592.dat
+    mesh: {fileID: 4300000, guid: a21623418d4f4f0499dc734b9bd56a36, type: 2}
+  - part: 60593.dat
+    mesh: {fileID: 4300000, guid: 1a3e64ddc02266d47bc001eed370617b, type: 2}
+  - part: 60616b.dat
+    mesh: {fileID: 4300000, guid: 7e0447c56c5764a4396160cc09e8182c, type: 2}
+  - part: 61780.dat
+    mesh: {fileID: 4300000, guid: cea8f4cc53cde5042be61b5f6c7c8b82, type: 2}
+  - part: 64390.dat
+    mesh: {fileID: 4300000, guid: ccc2cdbd11b22bb4daf67b9898785b1c, type: 2}
+  - part: 64645.dat
+    mesh: {fileID: 4300000, guid: 37205658346cc3f4385ca13befa0ad2a, type: 2}
+  - part: 64651.dat
+    mesh: {fileID: 4300000, guid: 66a54359360f42b4380a69e579555a99, type: 2}
+  - part: 64951.dat
+    mesh: {fileID: 4300000, guid: 90fc14f3fdca2d1418d2814d5668fca2, type: 2}
+  - part: 65474.dat
+    mesh: {fileID: 4300000, guid: 953b3fb1c152190498a688c2ee53f809, type: 2}
+  - part: 66857.dat
+    mesh: {fileID: 4300000, guid: c2c94e0651cf1ad4ca4c1691a270c85b, type: 2}
+  - part: 67095.dat
+    mesh: {fileID: 4300000, guid: 703c36ff809c53840b33fdf1619bfc62, type: 2}
+  - part: 73825.dat
+    mesh: {fileID: 4300000, guid: a1a9fe60c0597f040b7922e9f4197871, type: 2}
+  - part: 77845.dat
+    mesh: {fileID: 4300000, guid: c3b42c458cb18484386633c4fb9cf577, type: 2}
+  - part: 80015.dat
+    mesh: {fileID: 4300000, guid: 8adda05a4ccdbca4f8e22aa793a51ba5, type: 2}
+  - part: 85080.dat
+    mesh: {fileID: 4300000, guid: f698eb77190c88c41b68f98588751c2f, type: 2}
+  - part: 85651.dat
+    mesh: {fileID: 4300000, guid: 8d5ff955eb4deb947bbd21333f062d8b, type: 2}
+  - part: 86996.dat
+    mesh: {fileID: 4300000, guid: c47ef7e95324d644a93fd7dbfde1af4e, type: 2}
+  - part: 87580.dat
+    mesh: {fileID: 4300000, guid: d8faf44f4585ae64386bc740d7fa1b84, type: 2}
+  - part: 88072.dat
+    mesh: {fileID: 4300000, guid: 14de1a23be1855149a46ad733883cfd9, type: 2}
+  - part: 92950.dat
+    mesh: {fileID: 4300000, guid: 08c437aaac129eb4abaf2c1e54428279, type: 2}
+  - part: 95227.dat
+    mesh: {fileID: 4300000, guid: c152ebc7a7a34ba47b73db1480cf5380, type: 2}
+  - part: 95354.dat
+    mesh: {fileID: 4300000, guid: 80c5e8f3535dd204c8ceb4aca4f4a13d, type: 2}
+  - part: 96910.dat
+    mesh: {fileID: 4300000, guid: 2eddd2db0236f4542835427d6c4b830f, type: 2}
+  - part: 98138.dat
+    mesh: {fileID: 4300000, guid: e8eef89860299c14ab9141fb66315612, type: 2}
+  - part: u66.dat
+    mesh: {fileID: 4300000, guid: a6b51c3ca6b43014bbac16cbdc4561ed, type: 2}
+  - part: u608.dat
+    mesh: {fileID: 4300000, guid: bea24d3473d6f51479ef4120d0b2f4be, type: 2}
+  - part: u9026.dat
+    mesh: {fileID: 4300000, guid: 96e2eb12b3fb5ab46828f5a3d31ad4fc, type: 2}
+  - part: 92438.dat
+    mesh: {fileID: 4300000, guid: a5f27cf3d20d39b4b87ec9ec22d84818, type: 2}
+  - part: 20482.dat
+    mesh: {fileID: 4300000, guid: 58d38f4bae398e74d988e05ecc94b450, type: 2}
+  - part: 3245cdm0.dat
+    mesh: {fileID: 4300000, guid: 571a14f3385e66144b3f776c3e3b6fed, type: 2}
+  - part: 3386.dat
+    mesh: {fileID: 4300000, guid: 00a0d0f42472a9648900d7b76e841932, type: 2}
+  - part: 6091.dat
+    mesh: {fileID: 4300000, guid: 9e074e8373c4f5c4fb61a6fed24406a4, type: 2}
+  - part: 32932.dat
+    mesh: {fileID: 4300000, guid: 6e5a3472c5084744a9d69f28559d1279, type: 2}
+  - part: 86876.dat
+    mesh: {fileID: 4300000, guid: 3a58a58f8f436694ab2b4c96d399a86a, type: 2}
+  - part: 3741a.dat
+    mesh: {fileID: 4300000, guid: 389a349ea40334a4ca3bd2c76559d7dd, type: 2}

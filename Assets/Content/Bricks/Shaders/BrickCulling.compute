@@ -1,0 +1,83 @@
+// BrickCulling.compute
+// GPU frustum culling for brick instances.
+// Input:  all brick transforms + bounds
+// Output: compacted visible-only buffer + indirect args with updated count.
+
+#pragma kernel CSMain
+
+struct BrickData
+{
+    float4x4 objectToWorld;
+    float    colorCode;
+    float3   _pad;
+};
+
+// Input: all bricks (before culling)
+StructuredBuffer<BrickData>   _InputBricks;
+// Output: visible bricks only (compacted)
+AppendStructuredBuffer<BrickData> _OutputBricks;
+
+// Frustum planes (6 planes, each float4: normal.xyz + distance.w)
+float4 _FrustumPlanes[6];
+
+// Mesh bounds (object-space) for the current batch
+float3 _BoundsCenter;
+float3 _BoundsExtents;
+
+// Total input count
+uint _InputCount;
+
+// Counter buffer for indirect args
+RWStructuredBuffer<uint> _ArgsBuffer;
+// Which arg slot to write instanceCount into (typically index 1)
+uint _ArgsInstanceCountOffset;
+
+bool IsVisibleFrustum(float3 worldCenter, float3 worldExtents)
+{
+    for (int i = 0; i < 6; i++)
+    {
+        float4 plane = _FrustumPlanes[i];
+        float3 normal = plane.xyz;
+        float dist = plane.w;
+
+        // Signed distance from center to plane
+        float d = dot(normal, worldCenter) + dist;
+        // Effective radius along plane normal
+        float r = dot(abs(normal), worldExtents);
+
+        if (d + r < 0.0)
+            return false; // entirely outside this plane
+    }
+    return true;
+}
+
+[numthreads(64, 1, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    uint idx = id.x;
+    if (idx >= _InputCount)
+        return;
+
+    BrickData brick = _InputBricks[idx];
+    float4x4 m = brick.objectToWorld;
+
+    // Compute world-space center
+    float3 worldCenter = mul(m, float4(_BoundsCenter, 1.0)).xyz;
+
+    // Compute world-space extents (conservative: use abs of each axis scale * local extents)
+    float3 right   = float3(m[0][0], m[1][0], m[2][0]);
+    float3 up      = float3(m[0][1], m[1][1], m[2][1]);
+    float3 forward = float3(m[0][2], m[1][2], m[2][2]);
+
+    float3 worldExtents = abs(right) * _BoundsExtents.x
+                        + abs(up)    * _BoundsExtents.y
+                        + abs(forward) * _BoundsExtents.z;
+
+    if (IsVisibleFrustum(worldCenter, worldExtents))
+    {
+        _OutputBricks.Append(brick);
+        // Atomically increment instance count in args buffer
+        uint dummy;
+        InterlockedAdd(_ArgsBuffer[_ArgsInstanceCountOffset], 1, dummy);
+    }
+}

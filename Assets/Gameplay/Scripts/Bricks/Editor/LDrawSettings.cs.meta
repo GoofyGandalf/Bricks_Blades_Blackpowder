@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4860c1e821b273c46b2cb88e5f66a6a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ldConfigOverride: {fileID: 2811297602134710623, guid: e1bc29524ca117a4489c5b5d6f1e8e17, type: 3}
+  - brickMaterial: {instanceID: 0}
+  - paletteTexture: {fileID: 2800000, guid: ce88c0e1a8311ec47823c46f0842507a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
